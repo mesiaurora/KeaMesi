@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import KeaGoesZero from './Components/KeaGoesZero/KeaGoesZero'
+import KeaMakesThings from './Components/KeaMakesThings/KeaMakesThings'
+import KeaWritesCode from './Components/KeaWritesCode/KeaWritesCode'
+import AboutKea from './Components/AboutKea'
+import NavBar from './Components/PageComponents/NavBar'
+import Header from './Components/PageComponents/Header';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Header />
     </div>
-  );
+  )
+
 }
 
-export default App;
+export default App
