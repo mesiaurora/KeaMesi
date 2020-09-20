@@ -5,7 +5,7 @@ const KeaMakesThings = () => {
 
   return (
     <div>
-
+    'Kea Makes Things'
     </div>
 
   )

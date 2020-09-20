@@ -5,6 +5,7 @@ const AboutKea = () => {
 
   return (
     <div>
+    'About Kea'
     </div>
 
   )
