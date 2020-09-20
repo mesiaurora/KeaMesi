@@ -5,7 +5,7 @@ const AboutKea = () => {
 
   return (
     <div>
-    'About Kea'
+      <img src="/images/kea-profile.jpeg" alt="pattern" width="100px" height="100px" />
     </div>
 
   )
