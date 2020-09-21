@@ -1,4 +1,6 @@
 import React from 'react'
+import Pattern from './Pattern'
+import '../Styles/styles.css'
 
 const Patterns = (props) => {
 

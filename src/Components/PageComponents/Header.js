@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar'
+import '../Styles/styles.css'
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
 
   return (
     <div className="container">
-      <NavBar />
+      Kaaaameeeli
     </div>
   )
 }

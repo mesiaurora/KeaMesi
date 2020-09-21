@@ -1,11 +1,17 @@
 import React from 'react'
+import '../Styles/styles.css'
 
 const KeaMakesThings = () => {
 
 
   return (
     <div>
-    'Kea Makes Things'
+    <br />
+    <br />
+    <br />
+    <br />
+     <br />
+    <h2>Kea Makes THings</h2>
     </div>
 
   )

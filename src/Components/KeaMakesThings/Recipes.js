@@ -1,11 +1,18 @@
 import React from 'react'
+import '../Styles/styles.css'
 
 const Recipes = () => {
 
 
   return (
+
     <div>
-      'Recipes'
+    <br />
+    <br />
+    <br />
+    <br />
+     <br />
+    <h2>Recipes</h2>
     </div>
 
   )

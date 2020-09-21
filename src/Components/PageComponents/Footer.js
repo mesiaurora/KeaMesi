@@ -5,10 +5,16 @@ const Footer = () => {
 
 
   return (
-    <div className="fixed-bottom">
-      <Navbar color="dark" dark>
+    <div className="fixed-bottom colour-secondary text-style-tiny">
+      <Navbar variant="light">
           <Container>
-              <NavbarBrand>Footer</NavbarBrand>
+              <div>
+              Contact: kea.tossavainen(a)gmail.com
+              </div>
+              <div >
+              (c) Kea Tossavainen, 2020)
+              <br />
+              Built with React</div>
           </Container>
       </Navbar>
   </div>
