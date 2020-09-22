@@ -16,7 +16,7 @@ const NavBar = () => {
           <NavDropdown title="Kea Writes Code" id="basic-nav-dropdown">
             <NavDropdown.Item href="keawritescode">Portfolio</NavDropdown.Item>
             <NavDropdown.Item href="curriculumvitae">Curriculum Vitae</NavDropdown.Item>
-            <NavDropdown.Item href="aboutwebsite">About this site</NavDropdown.Item>
+            <NavDropdown.Item href="aboutkeamesi">About this site</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="http://linkedin.com/in/kea-tossavainen-645a1632/">LinkedIn</NavDropdown.Item>
           </NavDropdown>
