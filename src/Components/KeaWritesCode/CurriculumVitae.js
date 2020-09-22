@@ -6,7 +6,7 @@ const CurriculumVitae = () => {
 
   return (
     <div>
-    <h2>CurriculumVitae</h2>
+    <h2>Curriculum Vitae</h2>
 
     </div>
 

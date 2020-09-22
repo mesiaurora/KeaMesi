@@ -8,6 +8,7 @@ import Patterns from './Components/KeaMakesThings/Patterns'
 import KeaWritesCode from './Components/KeaWritesCode/KeaWritesCode'
 import AboutKea from './Components/AboutKea'
 import CurriculumVitae from './Components/KeaWritesCode/CurriculumVitae'
+import AboutKeaMesi from './Components/KeaWritesCode/AboutKeaMesi'
 import NavBar from './Components/PageComponents/NavBar'
 import Header from './Components/PageComponents/Header';
 import Footer from './Components/PageComponents/Footer'
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/recipes" component={Recipes} exact/>
           <Route path="/keawritescode" component={KeaWritesCode} exact/>
           <Route path="/curriculumvitae" component={CurriculumVitae} exact/>
+          <Route path="/aboutkeamesi" component={AboutKeaMesi} exact/>
         </Switch>
         </div>
       </BrowserRouter>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/styles.css'
 
-const Recipes = () => {
+const Recipes = (props) => {
 
   return (
     <div>
