@@ -1,3 +1,12 @@
+
+/* HTML elements */
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+/* Colours */
 .colour-primary {
   background-color: rgba(133, 15, 154);
   color: rgba(255, 255, 255);
@@ -8,6 +17,7 @@
   color: rgba(255, 255, 255);
 }
 
+/* Titles */
 h1 {
   font-family: 'Copperplate';
   color: rgba(97, 10, 113);
@@ -28,6 +38,7 @@ h4 {
   color: rgba(97, 10, 113);
 }
 
+/* Text styles */
 .text-style-header {
   font-family: 'Copperplate';
   color: rgba(255, 255, 255);

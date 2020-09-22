@@ -7,7 +7,7 @@ import Recipes from './Components/KeaMakesThings/Recipes'
 import Patterns from './Components/KeaMakesThings/Patterns'
 import KeaWritesCode from './Components/KeaWritesCode/KeaWritesCode'
 import AboutKea from './Components/AboutKea'
-import CV from './Components/KeaWritesCode/CV'
+import CurriculumVitae from './Components/KeaWritesCode/CurriculumVitae'
 import NavBar from './Components/PageComponents/NavBar'
 import Header from './Components/PageComponents/Header';
 import Footer from './Components/PageComponents/Footer'
@@ -17,20 +17,18 @@ const App = () => {
 
   return (
     <div className='container'>
-
       <BrowserRouter>
         <div>
-        <Header />
         <NavBar />
         <Switch>
-          <Route path="/AboutKea" component={AboutKea} exact/>
-          <Route path="/KeaGoesZero" component={KeaGoesZero} exact/>
-          <Route path="/Repurpose" component={Repurpose} exact/>
-          <Route path="/Components/KeaMakesThings/KeaMakesThings" component={KeaMakesThings} exact/>
-          <Route path="/Components/KeaMakesThings/Patterns" component={Patterns} exact/>
-          <Route path="/Components/KeaMakesThings/Recipes" component={Recipes} exact/>
-          <Route path="/Components/KeaWritesCode/KeaWritesCode" component={KeaWritesCode} exact/>
-          <Route path="/CV" component={CV} exact/>
+          <Route path="/" component={AboutKea} exact/>
+          <Route path="/keagoeszero" component={KeaGoesZero} exact/>
+          <Route path="/repurpose" component={Repurpose} exact/>
+          <Route path="/keamakesthings" component={KeaMakesThings} exact/>
+          <Route path="/patterns" component={Patterns} exact/>
+          <Route path="/recipes" component={Recipes} exact/>
+          <Route path="/keawritescode" component={KeaWritesCode} exact/>
+          <Route path="/curriculumvitae" component={CurriculumVitae} exact/>
         </Switch>
         </div>
       </BrowserRouter>

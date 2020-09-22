@@ -8,11 +8,7 @@ const Patterns = (props) => {
 
   return (
     <div>
-    <ul>
-      {patterns.map((pattern) =>
-        <Pattern name={pattern.name} pattern={pattern}/>
-      )}
-    </ul>
+    <h2>Patterns</h2>
     </div>
 
   )

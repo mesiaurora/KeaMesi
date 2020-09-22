@@ -5,7 +5,7 @@ const Page404 = (props) => {
 
   return (
     <div>
-
+    PAGE NOT FOUND
     </div>
 
   )

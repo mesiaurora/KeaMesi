@@ -8,29 +8,29 @@ const NavBar = () => {
   return (
     <div className="fixed-top colour-primary text-style-header">
       <Navbar variant="dark">
-        <Nav defaultActiveKey="/AboutKea" className="m-auto">
+        <Nav defaultActiveKey="/" className="m-auto">
         <Nav.Item>
-          <Nav.Link href="/AboutKea">Kea Mesi</Nav.Link>
+          <Nav.Link href="/">Kea Mesi</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <NavDropdown title="Kea Writes Code" id="basic-nav-dropdown">
-            <NavDropdown.Item href="../KeaWritesCode/KeaWritesCode">Portfolio</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="../KeaWritesCode/CV">CV</NavDropdown.Item>
+            <NavDropdown.Item href="keawritescode">Portfolio</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="curriculumvitae">Curriculum Vitae</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="http://linkedin.com/in/kea-tossavainen-645a1632/">LinkedIn</NavDropdown.Item>
           </NavDropdown>
           </Nav.Item>
           <Nav.Item>
           <NavDropdown title="Kea Makes Things" id="basic-nav-dropdown">
-            <NavDropdown.Item as={Link} to="../KeaMakesThings/Recipes">Recipes</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="../KeaMakesThings/Patterns">Patterns</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/recipes">Recipes</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/patterns">Patterns</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="https://www.instagram.com/keamakesthings/">Instagram</NavDropdown.Item>
           </NavDropdown>
           </Nav.Item>
           <Nav.Item>
           <NavDropdown title="Kea Goes Zero" id="basic-nav-dropdown">
-            <NavDropdown.Item as={Link} to="../KeaMakesThings/Recipes">Repurpose</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/repurpose">Repurpose</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="https://www.instagram.com/keagoeszero/">Instagram</NavDropdown.Item>
           </NavDropdown>

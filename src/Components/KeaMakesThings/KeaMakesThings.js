@@ -6,11 +6,6 @@ const KeaMakesThings = () => {
 
   return (
     <div>
-    <br />
-    <br />
-    <br />
-    <br />
-     <br />
     <h2>Kea Makes THings</h2>
     </div>
 

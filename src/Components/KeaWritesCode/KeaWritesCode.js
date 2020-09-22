@@ -6,11 +6,6 @@ const KeaWritesCode = () => {
 
   return (
     <div>
-    <br />
-    <br />
-    <br />
-    <br />
-     <br />
     <h2>Portfolio</h2>
     </div>
 
