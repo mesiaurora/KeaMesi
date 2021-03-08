@@ -12,6 +12,8 @@ const AboutKeaMesi = () => {
     <p className="text-style-content">I have used several plugins, including:
     <br />
     - <a href="https://github.com/jamesmoriarty/react-instagram-authless-feed">React Instagram Authless Feed by James Moriarty</a>
+    <br />
+    - <a href="https://github.com/jaketrent/react-social-icons">Sreact-social-icons by Jake Trent</a>
     </p>
 
     </div>

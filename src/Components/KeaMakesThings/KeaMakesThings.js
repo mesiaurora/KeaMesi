@@ -7,7 +7,7 @@ const KeaMakesThings = () => {
 
   return (
     <div>
-    <h2>Kea Makes THings</h2>
+    <h2>Kea Makes Things</h2>
     <Feed userName="keamakesthings" className="Feed" classNameLoading="Loading"/>,
     </div>
 

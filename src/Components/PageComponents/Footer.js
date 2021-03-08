@@ -5,7 +5,7 @@ const Footer = () => {
 
 
   return (
-    <div className="fixed-bottom colour-secondary text-style-tiny">
+    <div className="fixed-bottom colour-secondary text-style-footer">
       <Navbar variant="light">
           <Container>
               <div>

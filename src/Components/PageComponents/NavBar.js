@@ -43,7 +43,7 @@ const NavBar = () => {
         <Nav className="ml-auto">
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="info">Search</Button>
+            <Button>Search</Button>
           </Form>
 
           <Nav.Item>
@@ -51,12 +51,6 @@ const NavBar = () => {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="#gitHub"><SocialIcon url="http://github.com/mesiaurora" /></Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="#etsy"><SocialIcon url="http://etsy.com/shop/KeaMakesThings" /></Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="#blogger"><SocialIcon url="http://keamesi.blogspot.com/" /></Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar>

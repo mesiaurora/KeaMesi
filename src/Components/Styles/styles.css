@@ -66,6 +66,13 @@ h5 {
 
 /* Text styles */
 .text-style-header {
+  font-size: 1.3vw;
+  font-family: 'Copperplate';
+  color: rgba(255, 255, 255);
+}
+
+.text-style-footer {
+  font-size: 1.1vw;
   font-family: 'Copperplate';
   color: rgba(255, 255, 255);
 }
