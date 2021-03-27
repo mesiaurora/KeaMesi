@@ -13,7 +13,7 @@ const AboutKeaMesi = () => {
     <br />
     - <a href="https://github.com/jamesmoriarty/react-instagram-authless-feed">React Instagram Authless Feed by James Moriarty</a>
     <br />
-    - <a href="https://github.com/jaketrent/react-social-icons">Sreact-social-icons by Jake Trent</a>
+    - <a href="https://github.com/jaketrent/react-social-icons">React-social-icons by Jake Trent</a>
     </p>
 
     </div>
